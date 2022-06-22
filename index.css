@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Lobster&family=Rowdies:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: wheat;
+    font-family: 'Bad Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Rowdies', cursive;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(background.jpg);
+    background-size: cover;
+}
+.main{
+    width: 500px;
+    height: 600px;
+    background: rgba(146, 146, 146, 0.2);
+    border-radius: 20px;
+    overflow: hidden;
+}
+.Row1{
+    width: 100%;
+    height: 100px;
+    background: rgba(146, 146, 146, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Row1 h2{
+    font-size: 40px;
+    font-family: 'Bad Script', cursive;
+font-family: 'Rowdies', cursive;
+}
+.Row2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.in1{
+    width: 100%;
+    height: 25px;
+    margin: 10px;
+    text-transform: uppercase;
+}
+.in1:focus{
+    border-bottom: 3px solid red;
+}
+input{
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid black;
+    color: yellow;
+
+}
+.in2{
+    margin-left: 10px;
+    background: transparent;
+}
+textarea{
+    margin: 10px;
+    background: transparent;
+    color: yellow;
+}
+select,option{
+    background: transparent;
+    color: yellow;
+}
+
+button{
+    margin-left: 18px;
+    width: 80%;
+    line-height: 30px;
+    outline: none;
+    background: transparent;
+
+    
+}
